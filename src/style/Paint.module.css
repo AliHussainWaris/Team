@@ -1,18 +1,19 @@
-.imgsize
-{
-    height: 15%;
-    width: 15%;
-    border-radius: 30%;
-    
-    border: 1px solid black;
-    
- 
-   
-}
-table
-{
-    /* border: 1px solid black; */
-   
-    margin-left: -20%;
+.mainpaint{
     width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.paintclass{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.paintclass img
+{
+    width: 45px;
+    height: 45px;
+    border-radius:50% ;
+}
+.paintclass p{
+    margin-left: 2%;
 }

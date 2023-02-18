@@ -158,13 +158,7 @@ export const Modify = () => {
             <h1 className={style.head3}>Extra Details</h1>
             <a className={style.head4} onClick={worked}>See Details</a>
             <h1 className={style.painthead}>Exterior Paint</h1>
-            {PaintData.map((datais) => (
-              <Paint
-              imgsrc={datais.imgsrc}
-               Name={datais.Name}
-               Price={datais.Price}
-              />
-            ))}
+              <Paint/>
          </div>
         </div>
       </div>
