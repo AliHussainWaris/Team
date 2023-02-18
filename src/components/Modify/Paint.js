@@ -19,6 +19,7 @@ const Paint=(props)=>
     ]
     return(
         <>
+        {/* Working */}
         <div className={style.mainpaint}>
             {data.map((datas)=>(
                 <div className={style.paintclass}>
